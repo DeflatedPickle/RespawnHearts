@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "respawnhearts",
+    "name": "RespawnHearts",
+    "description": "A mod to change the hearts and effects a player spawns with.",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "https://github.com/DeflatedPickle/RespawnHearts",
+    "updateUrl": "",
+    "authorList": [
+      "DeflatedPickle"
+    ],
+    "credits": "Mojang, Minecraft, Forge, FML",
+    "logoFile": "logo.png",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
