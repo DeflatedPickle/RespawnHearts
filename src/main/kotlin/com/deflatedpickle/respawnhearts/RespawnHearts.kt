@@ -1,3 +1,5 @@
+/* Copyright (c) 2019 DeflatedPickle under the MIT license */
+
 package com.deflatedpickle.respawnhearts
 
 import com.deflatedpickle.respawnhearts.common.event.FMLEventHandler

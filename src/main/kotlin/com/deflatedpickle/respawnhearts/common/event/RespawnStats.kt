@@ -1,7 +1,10 @@
+/* Copyright (c) 2019 DeflatedPickle under the MIT license */
+
 package com.deflatedpickle.respawnhearts.common.event
 
 import com.deflatedpickle.respawnhearts.Reference
 import com.deflatedpickle.respawnhearts.api.capability.IRespawnStats
+import java.util.concurrent.Callable
 import net.minecraft.entity.EntityLivingBase
 import net.minecraft.nbt.NBTBase
 import net.minecraft.nbt.NBTTagCompound
@@ -11,7 +14,6 @@ import net.minecraftforge.common.capabilities.Capability
 import net.minecraftforge.common.capabilities.CapabilityInject
 import net.minecraftforge.common.capabilities.CapabilityManager
 import net.minecraftforge.common.capabilities.ICapabilitySerializable
-import java.util.concurrent.Callable
 
 object RespawnStats {
     val NAME = ResourceLocation(Reference.MOD_ID, "respawn_stats")

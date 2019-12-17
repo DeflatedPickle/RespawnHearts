@@ -1,6 +1,7 @@
+/* Copyright (c) 2019 DeflatedPickle under the MIT license */
+
 package com.deflatedpickle.respawnhearts.common.event
 
-import com.deflatedpickle.respawnhearts.RespawnHearts
 import net.minecraft.entity.Entity
 import net.minecraft.entity.player.EntityPlayer
 import net.minecraftforge.event.AttachCapabilitiesEvent
