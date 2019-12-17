@@ -4,6 +4,7 @@ package com.deflatedpickle.respawnhearts.common.event
 
 import com.deflatedpickle.respawnhearts.Reference
 import com.deflatedpickle.respawnhearts.api.capability.IRespawnStats
+import com.deflatedpickle.respawnhearts.common.config.GeneralConfig
 import java.util.concurrent.Callable
 import net.minecraft.entity.EntityLivingBase
 import net.minecraft.nbt.NBTBase
@@ -21,8 +22,8 @@ object RespawnStats {
     fun isCapable(entity: EntityLivingBase): IRespawnStats? = entity.getCapability(Provider.CAPABILITY, null)
 
     class Implementation : IRespawnStats {
-        private var health = 10f
-        private var saturation = 5
+        private var health = GeneralConfig.defaultHealth
+        private var saturation = GeneralConfig.defaultSaturation
 
         override fun setHealth(value: Float): IRespawnStats {
             this.health = value
